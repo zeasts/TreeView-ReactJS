@@ -1,0 +1,40 @@
+body {
+  
+}
+ul {
+	list-style: none;
+  padding-left: 0rem;	
+}
+
+.treeviewToggler {
+  float: left;
+}
+/* 
+li.treeView {
+  display: flow-root;
+  border-left: 1px solid #ccc;
+  margin: 0.5rem;
+  /* background: white; * /
+  min-width: 400px;
+  max-width: 0%;
+  padding-left: 1rem;
+} */
+li.treeView {
+  display: table;
+  border-left: 1px solid #ccc;
+  margin: 0.5rem;
+  /* background: red; */
+  /* min-width: 400px; */
+  /* max-width: 0%; */
+  padding-left: 1rem;
+}
+.treeView>div {
+  border-bottom: 1px solid #ccc;
+}
+
+
+.actions {
+  /* position: absolute; */
+  margin-top: -30px;
+  margin-left: 300px;
+}
